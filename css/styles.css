@@ -1,14 +1,10 @@
 :root {
     --white: hsl(0, 0%, 100%);
-    --lightGray: rgb(169, 172, 181);
+    --lightGray: hsl(212, 45%, 89%);
     --grayishBlue: hsl(220, 15%, 55%);
     --darkBlue: hsl(218, 44%, 22%);
-    --backgroundColor: rgb(213, 225, 239);
     --fuente: 'Outfit', sans-serif;
 }
-
-
-
 
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
@@ -22,7 +18,7 @@ html {
 }
 
 body {
-    background-color: var(--backgroundColor);
+    background-color: var(--lightGray);
     font-family: var(--fuente);
 }
 
@@ -63,7 +59,7 @@ img {
 
 .card__text {
     text-align: center;
-    color: var(--lightGray);
+    color: var(--grayishBlue);
     font-size: 1.5rem;
     margin: 1.8rem 1rem;
 }
