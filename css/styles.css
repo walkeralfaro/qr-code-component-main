@@ -1,0 +1,69 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --lightGray: rgb(169, 172, 181);
+    --grayishBlue: hsl(220, 15%, 55%);
+    --darkBlue: hsl(218, 44%, 22%);
+    --backgroundColor: rgb(213, 225, 239);
+    --fuente: 'Outfit', sans-serif;
+}
+
+
+
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* Permite que un REM sea equivalente a 10px */
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+    background-color: var(--backgroundColor);
+    font-family: var(--fuente);
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.flex {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 30rem;
+    background-color: var(--white);
+    padding: 1.4rem;
+    border-radius: 15px;
+}
+
+.card__qr {
+    border-radius: 10px;
+}
+
+.card__title {
+    text-align: center;
+    color: var(--darkBlue);
+    font-size: 2.1rem;
+    line-height: 1.2;
+    margin: 1.8rem 1rem;
+}
+
+.card__text {
+    text-align: center;
+    color: var(--lightGray);
+    font-size: 1.5rem;
+    margin: 1.8rem 1rem;
+}
