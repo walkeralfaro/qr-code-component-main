@@ -32,7 +32,8 @@ img {
 }
 
 .flex {
-    height: 100vh;
+    height: 100%;
+    min-height: 98vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,6 +46,7 @@ img {
     padding-bottom: 2rem;
     border-radius: 1.8rem;
     box-shadow: 0px 38px 65px -15px rgba(194,194,194,0.75);
+    margin: 6rem auto;
 }
 
 .card__qr {
@@ -68,8 +70,6 @@ img {
 
 /* ATTRIBUTION */
 .attribution {
-  position: absolute;
-  top: 98%;
   width: 100%;
   text-align: center;
   color: var(--darkBlue);
