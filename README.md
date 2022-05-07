@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![landscape]([./screenshot.jpg](https://github.com/WalkerAlfaro/qr-code-component-main/blob/main/screenshots/landscape.png))
 
 ### Links
 
